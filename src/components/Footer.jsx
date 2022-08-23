@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-        pageFooter
+    <div className='footerContent center'>
+        <span>Informacion adicional</span>
     </div>
   )
 }

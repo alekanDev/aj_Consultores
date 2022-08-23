@@ -7,11 +7,12 @@ const Navbar = () => {
     <div className='navbarContent'>
         <div className="logo">
             <img src={ logo } alt="logo" />
+            <span>A&J Consultores</span>
         </div>
         <div className="menu">
             <ul>
                 <li>
-                    <Link className='btnMenu' to='/inicio'>
+                    <Link className='btnMenu center' to='/'>
                         <button className='btnMenu'>Inicio</button>
                     </Link>
                 </li>
@@ -21,12 +22,12 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link className='btnMenu' to='/nosotros'>
-                        <button className='btnMenu'>Nosotros</button>
+                    <Link className='btnMenu' to='/sobreNosotros'>
+                        <button className='btnMenu'>Sobre A&J</button>
                     </Link>
                 </li>
                 <li>
-                    <Link className='btnMenu' to='/contacto'>
+                    <Link className='btnMenu' to='/contactanos'>
                         <button className='btnMenu'>Contacto</button>
                     </Link>
                 </li>
