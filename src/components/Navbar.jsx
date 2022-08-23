@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../images/logo.png'
-import { Link } from 'react-router-dom'
+import Ruta from './Ruta'
+import '../styles/navbar.css'
 
 const Navbar = () => {
   return (
@@ -10,31 +11,15 @@ const Navbar = () => {
             <span>A&J Consultores</span>
         </div>
         <div className="menu">
-            <ul>
-                <li>
-                    <Link className='btnMenu center' to='/'>
-                        <button className='btnMenu'>Inicio</button>
-                    </Link>
-                </li>
-                <li>
-                    <Link className='btnMenu' to='/servicios'>
-                        <button className='btnMenu'>Servicios</button>
-                    </Link>
-                </li>
-                <li>
-                    <Link className='btnMenu' to='/sobreNosotros'>
-                        <button className='btnMenu'>Sobre A&J</button>
-                    </Link>
-                </li>
-                <li>
-                    <Link className='btnMenu' to='/contactanos'>
-                        <button className='btnMenu'>Contacto</button>
-                    </Link>
-                </li>
-            </ul>
+            <Ruta route='/' name='Inicio' />
+            <Ruta route='/servicios' name='Servicios' />
+            <Ruta route='/sobreNosotros' name='Sobre A&J' />
+            <Ruta route='/Contactanos' name='Contacto' />
         </div>
     </div>
   )
 }
+
+
 
 export default Navbar
