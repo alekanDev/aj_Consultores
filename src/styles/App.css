@@ -8,7 +8,7 @@
     --azCl: #2C74B4;
     --azClTr: #2c75b4e3;
     --azOs: #262262;
-    --azOsTr: #262262f5;
+    --azOsTr: #262262d2;
     --grCl: #EFEFEF;
     --gr: #E2E2E2;
     --neTr: rgba(0, 0, 0, 0.42)
@@ -23,9 +23,6 @@
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 .content{
     width: 100%;

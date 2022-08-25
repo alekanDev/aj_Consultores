@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import '../styles/layout.css'
+import '../styles/Layout.css'
 
 const PublicLayout = ({ Children }) => {
   return (

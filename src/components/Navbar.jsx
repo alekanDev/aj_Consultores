@@ -1,14 +1,19 @@
 import React from 'react'
-import logo from '../images/logo.png'
+// import logo from '../images/logo.png'
+import menu from '../images/menu.png'
 import Ruta from './Ruta'
-import '../styles/navbar.css'
+import '../styles/Navbar.css'
 
 const Navbar = () => {
   return (
     <div className='navbarContent'>
         <div className="logo">
-            <img src={ logo } alt="logo" />
-            <span>A&J Consultores</span>
+            {/* <img src={ logo } alt="logo" /> */}
+            <img src={menu} alt="btnMenu" />
+            <span>A&J</span>
+            <div className='razon'>
+              <span>Contadores y</span><span>Financieros</span>
+            </div>
         </div>
         <div className="menu">
             <Ruta route='/' name='Inicio' />
@@ -19,7 +24,5 @@ const Navbar = () => {
     </div>
   )
 }
-
-
 
 export default Navbar
