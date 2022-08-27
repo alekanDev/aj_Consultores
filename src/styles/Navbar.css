@@ -65,18 +65,22 @@
         justify-content: space-between;
     }
         .logo{
-        width: 100%;
+            width: 100%;
+            padding: 0;
     }
             .logo img{
-                width: 10%;
+                width: 60px;
                 display: flex;
                 margin: none;
-                padding: none;
+                box-sizing: border-box;
+                padding: 5px;
             }
             .logo span{
+                display: none;
                 font-size: 18px;
             }
             .razon{
+                display: none;
                 width: 20%;
             }
                 .razon span{
