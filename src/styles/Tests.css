@@ -1,0 +1,48 @@
+/* .testContent{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+}
+    .testContent h1{
+        color: white;
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    .fromButtons{
+        width: 1000px;
+        height: 200px;
+        border-radius: 25px;
+        background-color: rgba(137, 43, 226, 0.493);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .testButton{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: none;
+            font-size: 26px;
+            font-weight: bold;
+            text-shadow: 0 0 10px black;
+            box-shadow: 0 0 20px royalblue;
+        }
+            .testButton:hover{
+                cursor: pointer;
+        }
+
+    .fromList{
+        width: 1000px;
+        height: 350px;
+        border-radius: 25px;
+        background-color: rgba(137, 43, 226, 0.493);
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    } */

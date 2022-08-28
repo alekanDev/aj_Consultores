@@ -9,8 +9,6 @@
         background-color: rgba(0, 0, 0, 0.548);
         border-radius: 25px;
         box-shadow: 0 0 30px black;
-    }
-    .servicesContent{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -19,19 +17,18 @@
     .servicesContent h1{
         color: white;
         text-shadow: 0 0 10px white;
-        font-size: 40px;
+        font-size: 32px;
         font-weight: bold;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .servicesList{
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-start;
         box-sizing: border-box;
         padding: 30px;
-        /* background-color: black; */
     }
 
     .buttonContent{
@@ -43,17 +40,18 @@
         font-weight: bold;
         font-size: 24px;
         margin: 0px 30px;
+        /* background-color: black; */
     }
     .buttonContent span{
         margin-top: 10px;
-        font-size: 22px;
+        font-size: 20px;
     }
     .servicesList{
         display: flex;
     }
     .servicesList button{
-        width: 170px;
-        height: 170px;
+        width: 120px;
+        height: 120px;
         background-color: var(--azClTr);
         border: none;
         border-radius: 50%;
@@ -68,9 +66,18 @@
         }
 
     .listServices{
+        width: 100%;
+        height: 50%;
         display: flex;
         flex-direction: column;
+        color: white;
+        align-items: center;
+        margin-top: 10px;
     }
+    .listServices h3{
+            font-size: 22px;
+            text-shadow: 0 0 20px white;
+        }
         .listServices img{
             width: 20px;
             height: 20px;
@@ -78,15 +85,23 @@
         .listServices img:hover{
             cursor: pointer;
         }
-
-        .contentItemService{
-            
-        }
-
         .itemService{
-            list-style: none;
-            font-size: 16px;
+            /* list-style: none; */
+            font-size: 18px;
+            background-color: var(--azOsTr);
+            /* background-color: rgba(0, 0, 0, 0.548); */
+            border-radius: 25px;
+            box-sizing: border-box;
+            padding: 10px 50px;
+            box-shadow: 0 0 20px black;
         }
+        .itemService li{
+            letter-spacing: 0.5px;
+            margin: 5px 0;
+        }
+            .itemService li:hover{
+                cursor: pointer;
+            }
 
         .listalista{
             width: 100%;
