@@ -1,6 +1,6 @@
 import React from 'react'
 // import logo from '../images/logo.png'
-import menu from '../images/menu.png'
+// import menu from '../images/menu.png'
 import Ruta from './Ruta'
 import '../styles/Navbar.css'
 
@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className='navbarContent'>
         <div className="logo">
             {/* <img src={ logo } alt="logo" /> */}
-            <img src={menu} alt="btnMenu" />
+            {/* <img src={menu} alt="btnMenu" /> */}
             <span>A&J</span>
             <div className='razon'>
               <span>Contadores y</span><span>Financieros</span>

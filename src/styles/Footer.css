@@ -1,6 +1,47 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
 .footerContent{
     width: 100%;
-    height: 20px;
-    background-color: rgba(0, 0, 0, 0.795);
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.678);
     color: white;
+}
+    .logoClients{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logoClients h3{
+        width: 100%;
+        height: 20%; 
+        
+    }
+    .alice-carousel{
+        width: 100%;
+        height: 70%;
+    }
+    .alice-carousel__stage li{
+        height: 100%;
+    }
+.logos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .logos img{
+        width: 200px;
+    }
+    .logos img:hover{
+        cursor: pointer;
+    }
+.information{
+    width: 30%;
+    height: 100%;
+}
+
+.alice-carousel__dots{
+    display: none;
 }
