@@ -1,0 +1,57 @@
+.historyContent{
+  width: 40%;
+  height: 100%;
+  color: white;
+  box-sizing: border-box;
+  padding: 40px;
+}
+.history{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: var(--azClTr);
+  border-radius: 25px;
+}
+  .history h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .history p{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+    }
+.right{
+  width: 60%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 40px;
+}
+  .rightSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azOsTr);
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  /* .mision{
+    height: 25%;
+  }
+  .vision{
+
+  }
+  .valores{
+
+  } */
+  
+  .valores ul{
+    margin-left: 30px;
+  }

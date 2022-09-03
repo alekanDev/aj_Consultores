@@ -68,3 +68,20 @@
         /* border-radius: 25px; */
         border: solid 20px var(--azCl);
     }
+
+.learnMore{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.more{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(126, 126, 126);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
