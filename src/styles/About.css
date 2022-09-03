@@ -1,22 +1,87 @@
 .content{
     display: flex;
-}
-.allContent{
+    flex-direction: column;
 }
 .pictures{
     width: 25%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .pictures img{
-    width: 200px;
-    height: 260px;
-    border-radius: 35%;
-    border: solid 4px var(--azCl);
+    width: 280px;
+    height: 360px;
+    /* border-radius: 35%; */
+    border: solid 6px var(--azCl);
+    /* border-bottom: solid 30px var(--azCl); */
 }
-.information{
+    .pictures span{
+        width: 280px;
+        /* height: 50px; */
+        border: solid 6px var(--azCl);
+        background-color: var(--azCl);
+    }
+        .picLeft{
+            align-items: center;
+        }
+        .picRigth{
+            align-items: center;
+        }
+    .name{
+        font-size: 22px;
+        text-align: center;
+        color: white;
+    }
+    .study{
+        height: 80px;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+    }
+.informationAlejandra{
     width: 25%;
-    height: 100%;
+    height: 462px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+.informationJuanCarlos{
+    width: 25%;
+    height: 462px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+    .experiencia{
+        width: 90%;
+        height: 500px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: white;
+        background-color: var(--azOsTr);
+        box-sizing: border-box;
+        padding: 20px;
+        /* border-radius: 25px; */
+        border: solid 20px var(--azCl);
+    }
+
+.learnMore{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.more{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(126, 126, 126);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }

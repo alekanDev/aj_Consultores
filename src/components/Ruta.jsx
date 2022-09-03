@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import { Link, useLocation } from 'react-router-dom'
 
-const Ruta = ({route, name}) => {
+const Ruta = ({route, name, }) => {
 
     let location = useLocation()
     const [isActive, setIsActive] = useState(false)

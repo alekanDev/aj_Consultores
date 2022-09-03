@@ -20,7 +20,7 @@ const Navbar = () => {
             <Ruta route='/servicios' name='Servicios' />
             <Ruta route='/sobreNosotros' name='Sobre A&J' />
             <Ruta route='/Contactanos' name='Contacto' />
-            <Ruta route='/fromtest' name='Tests' />
+            {/* <Ruta route='/fromtest' name='Tests' /> */}
         </div>
     </div>
   )
