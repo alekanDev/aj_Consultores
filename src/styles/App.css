@@ -11,7 +11,20 @@
     --azOsTr: #262262d2;
     --grCl: #EFEFEF;
     --gr: #E2E2E2;
-    --neTr: rgba(0, 0, 0, 0.42)
+    --neTr: rgba(0, 0, 0, 0.42);
+    --blTr: rgba(0, 0, 0, 0.548);
+}
+
+.allContent{
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 25px;
+    box-shadow: 0 0 30px black;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: center;
 }
 
 ::-webkit-scrollbar{

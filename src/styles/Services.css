@@ -59,12 +59,13 @@
 
     }.servicesList button:hover{
         cursor: pointer;
-    }
-
-        .servicesList img{
+    } 
+    .buttonImg{
             width: 150px;
         }
-
+        .buttonImg:hover{
+            width: 180px;
+        }
     .listServices{
         width: 100%;
         height: 50%;

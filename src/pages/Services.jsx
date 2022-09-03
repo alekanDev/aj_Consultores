@@ -51,39 +51,44 @@ const Services = () => {
         <div className="servicesContent">
           <h1>Nuestros Servicios</h1>
           <div className="servicesList">
+
             <div className="buttonContent">
-              <button type='button' className="testButton center" onClick={() => {
+             <button type='button' className="testButton center" onClick={() => {
+                setButtonAsesoria(!buttonAsesoria)
+                }}>
+                  <img className='buttonImg' src={ asesoria } alt="asesoriaImg" />
+              </button>
+              <span>Asesoria Financiera</span>
+            </div>
+
+            <div className="buttonContent">
+             <button type='button' className="testButton center" onClick={() => {
                 setButtonOutsourcing(!buttonOutsourcing)
                 }}>
-                  <img src={ outsourcing } alt="outsourcingImg" />
+                  <img className='buttonImg' src={ outsourcing } alt="outsourcingImg" />
               </button>
               <span>Outsourcing</span>
             </div>
+
             <div className="buttonContent">
               <button type='button' className="testButton center" onClick={() => {
                 setButtonAseguramiento(!buttonAseguramiento)
                 }}>
-                  <img src={ aseguramiento } alt="aseguramientoImg" />
+                  <img className='buttonImg' src={ aseguramiento } alt="aseguramientoImg" />
               </button>
               <span>Aseguramiento</span>
             </div>
+
             <div className="buttonContent">
               <button type='button' className="testButton center" onClick={() => {
                 setButtonTributario(!buttonTributario)
                 }}>
-                  <img src={ tributario } alt="tributarioImg" />
+                  <img className='buttonImg' src={ tributario } alt="tributarioImg" />
               </button>
               <span>Servicios Tributarios</span>
             </div>
-            <div className="buttonContent">
-              <button type='button' className="testButton center" onClick={() => {
-                setButtonAsesoria(!buttonAsesoria)
-                }}>
-                  <img src={ asesoria } alt="asesoriaImg" />
-              </button>
-              <span>Asesoria Financiera</span>
-            </div>
           </div>
+
           <div className="listServices center">
             {/* Aqui la lista*/}
             {

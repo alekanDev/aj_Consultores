@@ -1,0 +1,22 @@
+.content{
+    display: flex;
+}
+.allContent{
+}
+.pictures{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pictures img{
+    width: 200px;
+    height: 260px;
+    border-radius: 35%;
+    border: solid 4px var(--azCl);
+}
+.information{
+    width: 25%;
+    height: 100%;
+}
