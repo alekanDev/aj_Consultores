@@ -8,12 +8,12 @@ import { BsArrowRightCircleFill } from "react-icons/bs";
 const About = () => {
   return (
     <div className='content center'>
-      <div className="learnMore">
+      {/* <div className="learnMore">
         <div className="more">
         <BsArrowRightCircleFill color='white' size={30} />
         <Ruta route='/nuestraHistoria' name='Conocer más' />
         </div>
-      </div>
+      </div> */}
       <div className='allContent center' >
         <div className='informationAlejandra' >
           <p className='experiencia center'>

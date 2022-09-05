@@ -19,8 +19,10 @@ const Navbar = () => {
             <Ruta route='/' name='Inicio' />
             <Ruta route='/servicios' name='Servicios' />
             <Ruta route='/sobreNosotros' name='Sobre A&J' />
-            <Ruta route='/Contactanos' name='Contacto' />
-            {/* <Ruta route='/fromtest' name='Tests' /> */}
+            <Ruta route='/nuestraHistoria' name='Historia' />
+            <button className='btnMenu'>
+              <a href="http://wa.link/e9v6j7" target="_blank" rel="noopener noreferrer">Contacto</a>
+            </button>
         </div>
     </div>
   )

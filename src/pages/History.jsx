@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/History.css'
+import logo from '../images/logo.png'
 
 const History = () => {
   return (
@@ -8,13 +9,16 @@ const History = () => {
         <div className="historyContent">
           <div className='history'>
           <h1>Nuestra Historia</h1>
-          <p>
-            A&J Contadores y Financieros S.A.S. nace del sueño de dos colegas y amigos que creemos firmemente en que existe la manera de apoyar a las Empresas con nuestros servicios de una manera diferente, siendo parte de su equipo de trabajo y  convirtiéndonos en sus aliados estratégicos.
-          </p>
-          <p>
-          Siendo ambos Contadores con más de 10 años de experiencia en sectores de la Economía como:
-            Servicios, Comercial e Industrial y siendo conscientes de que las Empresas cada vez necesitan simplificar sus procesos y enfocar sus esfuerzos en el desarrollo y crecimiento de sus negocios; creamos esta Empresa con el fin de dar alcance a las necesidades de las Compañías en sus procesos Contables, Tributarios, Financieros y de Control de la Información.
-          </p>
+            <p>
+              A&J Contadores y Financieros S.A.S. nace del sueño de dos colegas y amigos que creemos firmemente en que existe la manera de apoyar a las Empresas con nuestros servicios de una manera diferente, siendo parte de su equipo de trabajo y  convirtiéndonos en sus aliados estratégicos.
+            </p>
+            <p>
+            Siendo ambos Contadores con más de 10 años de experiencia en sectores de la Economía como:
+              Servicios, Comercial e Industrial y siendo conscientes de que las Empresas cada vez necesitan simplificar sus procesos y enfocar sus esfuerzos en el desarrollo y crecimiento de sus negocios; creamos esta Empresa con el fin de dar alcance a las necesidades de las Compañías en sus procesos Contables, Tributarios, Financieros y de Control de la Información.
+            </p>
+            {/* <div className='logoHistory'>
+              <img src={logo} alt="" />
+            </div> */}
           </div>
         </div>
         <div className="right">

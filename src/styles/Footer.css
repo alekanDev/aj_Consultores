@@ -41,6 +41,19 @@
 .information{
     width: 30%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 15px black;
+}
+.information h3{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.information h3 span{
+    margin-left: 15px;
 }
 
 .alice-carousel__dots{

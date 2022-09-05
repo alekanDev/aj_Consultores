@@ -7,8 +7,11 @@ import dimotriz from '../images/clientes/dimotriz-center.png'
 import tesara from '../images/clientes/tesara-center.png'
 import cubiq from '../images/clientes/cubiq-center.png'
 
+import { FaWhatsapp } from "react-icons/fa";
+
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   const clients = [
@@ -41,7 +44,7 @@ const Footer = () => {
   return (
     <div id='footer' className='footerContent center'>
       <div className='logoClients center'>
-        <h3 className='center'>Nuestros clientes</h3>
+        <h2 className='center'>Nuestros clientes</h2>
         <AliceCarousel
           mouseTracking
           items={ clients }
@@ -53,8 +56,13 @@ const Footer = () => {
           />
       </div>
       <div className='information center'>
-        Nuestra informacion
-      </div>
+        <h1>Contacto</h1>
+        <h3>Correo: <span>alejandra.duque@ayjcontadoresfinancieros.com</span></h3>
+        <h3>Correo: <span>juan.gonzalez@ayjcontadoresfinancieros.com</span></h3>
+        <h3>Celulares: <span>3104059281 y 3054570728</span></h3>
+        <h3></h3>
+        <h3><FaWhatsapp size={30}/>Whatsapp: <span>3104059281</span></h3>
+</div>
     </div>
   )
 }

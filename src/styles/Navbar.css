@@ -6,7 +6,7 @@
     display: flex;
 }
     .logo{
-        width: 60%;
+        width: 55%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -51,6 +51,10 @@
                 text-shadow: 2px 2px 40px rgb(0, 0, 0);
                 font-weight: bold;
             }
+        .btnMenu a{
+            color: White;
+            text-decoration: none;
+        }
         .btnMenu_on{
             font-weight: bold;
             text-shadow: 2px 2px 40px rgb(0, 0, 0);

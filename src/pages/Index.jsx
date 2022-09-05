@@ -5,7 +5,7 @@ import logo from '../images/logo.png'
 
 const Index = () => {
     return (
-        <div className='content center'>
+        <div className='contentIndex center'>
             <div className="logoBanner center">
                 <img src={ logo } alt="" />
             </div>
